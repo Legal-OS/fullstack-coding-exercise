@@ -31,19 +31,19 @@ Good luck and have fun 😀. The cats and the shelter will be thankful! 🙏
 * You have to serve the data from the backend through a GraphQL or REST endpoint. 
 * The endpoint(s) needs to be secured to only allow access with API Keys. It is ok to generate API keys manually.
 * You are free to choose the database solution which you think suits best. 
-* The frontend interface has to be designed with React.
-* Typescript is enable on both backend and client, but you are not required to use it.
-* Feel free to install/remove any libraries you feel you need.
+* The frontend interface has to be implemented with React.
+* Typescript is enabled on both backend and frontend, but you are not required to use it.
+* Feel free to install/remove any libraries you feel as you need.
 * You do not need to make an authentication system (accounts etc).
 
 ## Setup
 
-To start the client & backend:
+To start the frontend & backend:
 
 1. `npm install`
 2. `npm start`
 
-This will start the client on port `3000` and the backend on port `3001`.
+This will start the frontend on port `3000` and the backend on port `3001`.
 
 You can also start each part seperately by running `npm start` in their respective folders.
 
