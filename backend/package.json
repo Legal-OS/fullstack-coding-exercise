@@ -1,0 +1,23 @@
+{
+  "name": "legal-os-fullstack-exercise-backend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node lib/server.js",
+    "build": "babel src --out-dir lib --extensions='.ts,.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beer van der Drift",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/express": "^4.17.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
