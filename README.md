@@ -1,35 +1,47 @@
+# Welcome
+
+Hi there and thanks for taking our tech test. We are going to make an administration application for an animal shelter just for cats!
+
+![Happy Crypto Kitty](https://www.cryptokitties.co/images/kitty-eth.svg)
+
 ## Exercise
 
-We are going to make an animal shelter just for dogs! Dogs have a few properties:
+Please read the user stories and try to complete them. Keep in mind the technical requirements. You can take as much time as you'd like. 
 
-* an unique identifier
-* a name
-* a breed
-* a date of birth
-* a gender
-* they have brothers/sisters which also needs to be tracked somehow
-* who brought them in
-* are they already picked up by someone and if yes by who
+Don't worry about designs. Feel free to implement something yourself, the quality of UI/UX won't weigh in on your result. Good luck 😀.
 
-We also track who has picked up dogs. These "contacts" have a few properties:
+## User stories
 
-* an unique identifier
-* a name
-* a phone number
-* dogs they have brought in
-* dogs they have picked up
+- [ ] As a user I can browse cats and see their name, breed, date of birth, gender and siblings, who dropped them off and who picked them up if they are picked up
+- [ ] As a user I can filter out cats that are already picked up
+- [ ] As a user I can browse contacts and see their full name, phone number, address and cats they have either picked up/brought in
+- [ ] As a user I can register pickups and dropoffs
 
-You have to serve this data through a preferably GraphQL or REST endpoint where 
+## Technical Requirements
 
-1. anyone can query for these dogs
-2. anyone can bring in a new dog
-3. anyone can pick up a new dog
-4. you can press a button to let a dog be "born" (so generating a new one).
+* You have to serve the data from the backend through a GraphQL or REST endpoint. 
+* The endpoint(s) needs to be secured to only allow access with API Keys. It is ok to generate API keys manually.
+* You are free to choose the database solution which you think suits best. 
+* The frontend interface has to be designed with React.
+* Typescript is enable on both backend and client, but you are not required to use it.
+* Feel free to install/remove any libraries you feel you need.
+* You do not need to make an authentication system (accounts etc).
 
-You are free to choose the database solution which you think suits best. 
+## Setup
 
-Please develop a React interface to interact with the server and do these steps.
+To start the client & backend:
+
+1. `npm install`
+2. `npm start`
+
+This will start the client on port `3000` and the backend on port `3001`.
+
+You can also start each part seperately by running `npm start` in their respective folders.
 
 ## Thanks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The image on top of the file is provided by the [CryptoKitties](https://www.cryptokitties.co/) project.
+
+This frontend of the project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Got a little bit of inspiration by [the full-stack tech test of Skyscanner](https://github.com/Skyscanner/full-stack-recruitment-test) and [JustEat's tech test](https://github.com/justeat/JustEat.RecruitmentTest).
