@@ -1,0 +1,15 @@
+{
+  "name": "fullstack-test",
+  "version": "1.0.0",
+  "description": "We are going to make an animal shelter just for cats!",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.1"
+  }
+}
