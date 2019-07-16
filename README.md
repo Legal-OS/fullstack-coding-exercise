@@ -13,7 +13,11 @@ The exercise exists out of two parts:
 
 Please read the user stories and try to complete them. Keep in mind the technical requirements. You can take as much time as you'd like. 
 
-Don't worry about designs. Feel free to implement something yourself, the quality of UI/UX won't weigh in on your result. Don't forget to also answer the follow up questions in the end ([In `FOLLOW_UP.md`](/FOLLOW_UP.md)). Good luck 😀.
+Don't worry about designs. Feel free to implement something yourself, the quality of UI/UX won't weigh in on your result. 
+
+Once done, don't forget to also answer the follow up questions in the end ([In `FOLLOW_UP.md`](/FOLLOW_UP.md)). Please package this folder in a zip file and send it to you contact at Legal OS. 
+
+Good luck and have fun 😀. The cats and the shelter will be thankful! 🙏
 
 ## User stories
 
