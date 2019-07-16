@@ -4,7 +4,8 @@
   "description": "We are going to make an animal shelter just for cats!",
   "scripts": {
     "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\" ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "concurrently \"cd backend && npm install\" \"cd frontend && npm install\" ",
+    "test": "concurrently \"cd backend && npm test\" \"cd frontend && npm test\" "
   },
   "keywords": [],
   "author": "",
