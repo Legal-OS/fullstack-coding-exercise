@@ -6,9 +6,14 @@ Hi there and thanks for taking our tech test. We are going to make an administra
 
 ## Exercise
 
+The exercise exists out of two parts:
+
+1. A Coding Exercise
+2. A set of [follow up questions](/FOLLOW_UP.md).
+
 Please read the user stories and try to complete them. Keep in mind the technical requirements. You can take as much time as you'd like. 
 
-Don't worry about designs. Feel free to implement something yourself, the quality of UI/UX won't weigh in on your result. Good luck 😀.
+Don't worry about designs. Feel free to implement something yourself, the quality of UI/UX won't weigh in on your result. Don't forget to also answer the follow up questions in the end ([In `FOLLOW_UP.md`](/FOLLOW_UP.md)). Good luck 😀.
 
 ## User stories
 
