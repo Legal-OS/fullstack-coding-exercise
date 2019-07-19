@@ -26,7 +26,7 @@ The only people interacting with this product are people who work at the animal 
 - [ ] As a user I can browse cats and see their name, breed, date of birth, gender and siblings, who dropped them off and who picked them up if they are picked up
 - [ ] As a user I can filter out cats that are already picked up
 - [ ] As a user I can browse contacts and see their full name, phone number, address and cats they have either picked up/brought in
-- [ ] As a user I can register pickups and dropoffs
+- [ ] As a user I can register new pickups and dropoffs that happened by someone coming into the shelter and picking up or dropping off a cat. When the person coming in is a new contact we can add that person as a contact.
 
 ## Technical Requirements
 
