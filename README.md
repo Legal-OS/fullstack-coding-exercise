@@ -15,7 +15,7 @@ Please read the user stories and try to complete them. Keep in mind the technica
 
 Don't worry about designs. Feel free to implement something yourself, the quality of UI/UX won't weigh in on your result. 
 
-Once done, don't forget to also answer the follow up questions in the end ([In `FOLLOW_UP.md`](/FOLLOW_UP.md)). Please package this folder in a zip file and send it to you contact at Legal OS. 
+Once done, don't forget to also answer the follow up questions in the end ([In `FOLLOW_UP.md`](/FOLLOW_UP.md)). Please package this folder in a zip file and send it to you contact at Legal OS. You do not need to provide us with a datastore, we will set one up ourselves to test you application against.
 
 Good luck and have fun 😀. The cats and the shelter will be thankful! 🙏
 
