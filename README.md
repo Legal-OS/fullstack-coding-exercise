@@ -21,6 +21,8 @@ Good luck and have fun 😀. The cats and the shelter will be thankful! 🙏
 
 ## User stories
 
+The only people interacting with this product are people who work at the animal shelther. The "user" is therefore always an administrator and can do all interaction.
+
 - [ ] As a user I can browse cats and see their name, breed, date of birth, gender and siblings, who dropped them off and who picked them up if they are picked up
 - [ ] As a user I can filter out cats that are already picked up
 - [ ] As a user I can browse contacts and see their full name, phone number, address and cats they have either picked up/brought in
