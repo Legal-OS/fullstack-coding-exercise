@@ -31,7 +31,7 @@ The only people interacting with this product are people who work at the animal 
 ## Technical Requirements
 
 * You have to serve the data from the backend through a GraphQL or REST endpoint. 
-* The endpoint(s) needs to be secured to only allow access with API Keys. It is ok to generate API keys manually.
+* The endpoint(s) needs to be secured to only allow access with API Keys. It is ok to generate API keys manually and hardcode them into you solution.
 * You are free to choose the database solution which you think suits best. 
 * The frontend interface has to be implemented with React.
 * Typescript is enabled on both backend and frontend, but you are not required to use it.
