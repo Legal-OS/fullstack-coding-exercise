@@ -1,9 +1,24 @@
-import express from "express";
+const express = require("express");
+const path = require("path");
+var cors = require("cors");
+const bodyParser = require('body-parser');
+const jwt = require('express-jwt')
 
-const port = 3001;
+const schema = require("./schema");
+const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
 
 const app = express();
 
-app.get("/", (req, res) => res.send("Hello World"));
+app.use(cors());
 
-app.listen(port, () => console.log("App is listening on port " + port));
+app.use("/api", bodyParser.json(), graphqlExpress({
+    schema,
+}));
+
+app.use("/apii", bodyParser.json(), graphiqlExpress({
+    endpointURL: "/api",
+}));
+
+app.use(express.static(path.join(__dirname, '../', '../', 'frontend', 'build')));
+
+app.listen(3000, () => console.log("App is listening on port 3000"));
