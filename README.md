@@ -15,21 +15,23 @@ Please read the user stories and try to complete them. Keep in mind the technica
 
 Don't worry about designs. Feel free to implement something yourself, the quality of UI/UX won't weigh in on your result. 
 
-Once done, don't forget to also answer the follow up questions in the end ([In `FOLLOW_UP.md`](/FOLLOW_UP.md)). Please package this folder in a zip file and send it to you contact at Legal OS. 
+Once done, don't forget to also answer the follow up questions in the end ([In `FOLLOW_UP.md`](/FOLLOW_UP.md)). Please package this folder in a zip file and send it to you contact at Legal OS. You do not need to provide us with a datastore, we will set one up ourselves to test you application against.
 
 Good luck and have fun 😀. The cats and the shelter will be thankful! 🙏
 
 ## User stories
 
+The only people interacting with this product are people who work at the animal shelther. The "user" is therefore always an administrator and can do all interaction.
+
 - [ ] As a user I can browse cats and see their name, breed, date of birth, gender and siblings, who dropped them off and who picked them up if they are picked up
 - [ ] As a user I can filter out cats that are already picked up
 - [ ] As a user I can browse contacts and see their full name, phone number, address and cats they have either picked up/brought in
-- [ ] As a user I can register pickups and dropoffs
+- [ ] As a user I can register new pickups and dropoffs that happened by someone coming into the shelter and picking up or dropping off a cat. When the person coming in is a new contact we can add that person as a contact.
 
 ## Technical Requirements
 
 * You have to serve the data from the backend through a GraphQL or REST endpoint. 
-* The endpoint(s) needs to be secured to only allow access with API Keys. It is ok to generate API keys manually.
+* The endpoint(s) needs to be secured to only allow access with API Keys. It is ok to generate API keys manually and hardcode them into you solution.
 * You are free to choose the database solution which you think suits best. 
 * The frontend interface has to be implemented with React.
 * Typescript is enabled on both backend and frontend, but you are not required to use it.
